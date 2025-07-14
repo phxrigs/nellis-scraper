@@ -1,0 +1,41 @@
+name: Run Nellis Scraper
+
+on:
+  schedule:
+    # Covers MST 1PM–4:55PM → UTC 20:00–23:55
+    - cron: '*/5 20-23 * * *'
+    # Covers MST 5PM–10:00PM → UTC 00:00–05:55
+    - cron: '*/5 0-5 * * *'
+  workflow_dispatch:  # Manual trigger option
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    env:
+      GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '22'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run Nellis scraper
+        run: node index.js
+
+      - name: Log UTC run time
+        run: echo "Triggered at $(date -u)" > run-log.txt
+
+      - name: Upload run log
+        uses: actions/upload-artifact@v4
+        with:
+          name: run-log
+          path: run-log.txt
+          compression-level: 0
