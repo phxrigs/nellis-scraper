@@ -1,0 +1,12 @@
+{
+  "name": "nellis-scraper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "googleapis": "^105.0.0",
+    "puppeteer": "^21.11.0"
+  }
+}

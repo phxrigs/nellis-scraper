@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "temporal-wares-465206-g5",
+  "private_key_id": "71e0b0f94727b2d1150787688ce1e1bf4ffac0af",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCjqneG9crxud3y\nfdNUABj2A6f0uMjf2tpePVIFnmapZBBMhB45Q0sRvxM17Zt8+VPJv81kAZw/1TNe\nTfN7dgNAqW1xYVjYd+CvDQ6IJ1KqpEjoxEaMaMDLIoZko1Qy8KyCCwglWqGQfQ+Q\nyw5rzrdlrU254fQQ1ZE+v0Lr9n1XIKXZgHeXv4XjH8ThnWFSU5bJhJGYJTA+GBcn\njbmWWB2n0nZK9GnG/CgTXtKjDF4mbVpRs9cgPzRw6XWurazTSo0LijtUSNq7jv+A\noTEU5wMariu5ji1WnOnT5Xhunya/optAywIlcRhehfq+8KHAUpqI54oTTgh9jqzT\nvCul8ZS3AgMBAAECggEACItmSRv89+jBvx61kT2eD/3530tkZVd6LhBaf2OZLX/F\nYBFHuKqcOTV2Dcs1Ym1r4+0JDo8M9sItN9+u9gOfwNj3l0NDTa3Yg5sVZqNS7Ai+\nq7RPkJYJdrF7PbbPNwecof9scfLM24vD68XGH3e/2GWXWLyErvpPZmy61DHeslUz\nCjtq/3WduGH/IoDxC0IzByxaYA3XFAHPvaYxy4uUYShnF69Vqc5Mrg1BOdNxsDSg\nTTC3z/7U+t5gCAnKE1EeklO1R+sa6csExuh0vdEN51TjbqkN56dX4NttlIbiZI6B\nmnLbBP/9S9SEvQ7hux4tM+LU4pOk4S1eKKoaZYIfgQKBgQDhg5d+jiRcklN8wXzv\n74WhNspxoQASorBONUUSHJ8tMJH27CL2NbZAU27D2jN3bluUzzvNAO+ibx5okaL3\n/szYlCiPNCyA2wzQZ2awLzWtAGwR0HDq2WvxakHVJaWlKuBRvsZX0dZvO/tSpeua\nQAjUdwg6zypzzXW5w9lEV7psNwKBgQC5ynv6lJ1uE4DcYhz1zdrrVQvJ0OU1aVvB\n9B8rjdI8BGsDuN7kph0N2EJqNbL3R9oRF7KpXOCv/sYVRoGNDgOH1vHE/nMn8QyP\nZg1gEV21GKpFCo9ugXABMGpnizs0e4Ov+oU/YXuWewgDmRqrGOR6wf+TGSbzdkec\n1BWz0gLbgQKBgQCMko6YoNohqkTIe4P5vIC74X+IHSgCdc8YsTQA+j5u2Nvj44ZX\nm1uj9V4ST63NQMltlVBdlbvKsSFvZXkExZvDVXeC7K7hE6qFLi9gm80FrkGvSRNa\nEXWr4uRujS0YLAXwbs8MZw0YAXfEKREX8dqPNjO3FPQNg4Fi7qY8Z8MZOQKBgQC2\nCCjuu7t/hUZlJw/+2aGbn2j8ZFqeuUq4vonnr32DZkS/kdt5JTQkQ3XXACQH2fNT\neeeHvsM6TKIhaEI4RLm61yNsgm2rfaZzvWZvcLRiYfc5y/36JIHr+FbYencYlcfR\nnN/+2HExX/vbIqAZcTsy926D3knmkkXZ54YX+DTqgQKBgAzV/j0G54MD92DLR1rW\nT+H2+5dWyZkIAk5zfL/nR0pyl9dzcow98D6MCDjrV0tX22q+x+2DGzRchBjTLldX\nCoEfxeTEhj7G1UGizlR8R80RfmW+6kLEfAoKDlYRShj29pNAm2BiVkGskYjlQEzo\nR0AQYSdqgiDMoKj74nOt3Oe2\n-----END PRIVATE KEY-----\n",
+  "client_email": "sheets-accessor@temporal-wares-465206-g5.iam.gserviceaccount.com",
+  "client_id": "111616131895360843880",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/sheets-accessor%40temporal-wares-465206-g5.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
