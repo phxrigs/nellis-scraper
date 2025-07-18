@@ -1,0 +1,24 @@
+# 🔒 Secrets and credentials
+*.json
+.env
+
+# 📦 Node modules
+node_modules/
+
+# 🪵 Logs
+*.log
+npm-debug.log*
+
+# 💻 VS Code metadata
+.vscode/
+
+# 🖼️ Image snapshots or temporary files
+failed-row-*.html
+
+# 💥 OS-specific clutter
+.DS_Store
+Thumbs.db
+
+# 📁 Build outputs or caches
+dist/
+.cache/
