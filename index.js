@@ -1,17 +1,15 @@
 const puppeteer = require('puppeteer');
 const fs = require('fs');
-const path = require('path');
 const { google } = require('googleapis');
 
-const filePath = path.join(__dirname, 'your-key-file.json');
+// 🔐 Load credentials securely from environment
 let keys;
-
 try {
-  const raw = fs.readFileSync(filePath, 'utf8');
-  keys = JSON.parse(raw);
-  console.log('🔐 Credentials loaded');
+  keys = JSON.parse(process.env.GOOGLE_CREDENTIALS);
+  keys.private_key = keys.private_key.replace(/\\n/g, '\n');
+  console.log('🔐 Credentials loaded from environment');
 } catch (err) {
-  console.error('❌ Failed to load credentials:', err.message);
+  console.error('❌ Failed to parse GOOGLE_CREDENTIALS:', err.message);
   process.exit(1);
 }
 
